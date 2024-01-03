@@ -215,7 +215,7 @@ if(error) {
 Eden supports WebSocket using the same API as same as normal route.
 ```typescript
 // Server
-import { Elysia, t, ws } from 'elysia'
+import { Elysia, t } from 'elysia'
 
 const app = new Elysia()
     .use(ws())
